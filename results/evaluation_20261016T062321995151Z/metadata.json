@@ -1,0 +1,76 @@
+{
+  "commit": "2dcdf0d85893c3534ad64626db84ee73022f812d",
+  "source_sha256": {
+    "assembly_memory/models.py": "3aab3a61cb751722d91b43378e250803abe09e5010b29c62511e29a68a77d6a8",
+    "assembly_memory/__init__.py": "373d97105ec98d43b92982eef8fe4f8b33be65092426b4fd584d1575025371ab",
+    "assembly_memory/data.py": "7ae41446f5ed54682986e52b8381a18dc47f154245ca156040bdcd3b46ba3216",
+    "tests/test_dynamics.py": "becdaae0f17021de4ab69c03b7140433d299742ca19c2adc6ce7506139b5f855",
+    "configs/diagnostic.json": "d3af8ba69e054697386c03e3c7e4d3c539197664530a4543969de33ef109459a",
+    "docs/LEARNING_RULE.md": "b7b463325bce4505acacf201abaf14009aafa37771d8c2a673bbba913fe6477e",
+    "docs/IMPLEMENTATION_LOG.md": "229c33803b4be5f0aa73ce58f60b1ab756d10ef8d1bf364aabea9ef37755c243",
+    "docs/SOURCES.md": "d2c95a999935352bf1c9d544ab414ea3d2f5e2b4f5d56440dc59bc58e4254908",
+    "docs/MATHEMATICAL_AUDIT.md": "408b30fabe60d4918cfe107d2bd4bbda5654203ca5e8199211ffaa3603e3467c",
+    "docs/EXTERNAL_REVIEW.md": "49b0f1a47d63536d89f7f9453851966205a7163d0621defed30c2f4b1896e0b7",
+    "docs/PROTOCOL.md": "04bfa50a5ef8b1653b94b928212b9b8dfc3290aba7913a30a3fd0c008122bc0f",
+    "run.py": "45febf5397149c49555fc289dedf980066b9e0e840b05c40d42524d9879db5f1"
+  },
+  "python": "3.13.5",
+  "numpy": "2.4.4",
+  "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1"
+  },
+  "config": {
+    "protocol": "AM-0/1",
+    "development_seeds": [
+      71,
+      89
+    ],
+    "evaluation_seeds": [
+      307,
+      401,
+      509,
+      601,
+      701
+    ],
+    "families": [
+      "adaptive",
+      "resource",
+      "delayed"
+    ],
+    "development_families": [
+      "adaptive",
+      "resource"
+    ],
+    "learning_rates": [
+      0.01,
+      0.03,
+      0.1
+    ],
+    "train_sequences": 32,
+    "validation_sequences": 12,
+    "test_sequences": 20,
+    "length": 48,
+    "warmup": 4,
+    "state_cap_bytes": 32768,
+    "time_cap_seconds": 0.75,
+    "models": [
+      "assembly",
+      "assembly_fixed",
+      "assembly_no_pool",
+      "adaptive_lms",
+      "quadratic_lms",
+      "history_lms",
+      "current_lms",
+      "assembly_shuffled",
+      "assembly_untrained"
+    ]
+  },
+  "phase": "evaluation",
+  "started_at_utc": "2026-10-16T06:23:21.996206+00:00",
+  "user_timezone": "America/Los_Angeles",
+  "status": "complete",
+  "finished_at_utc": "2026-10-16T06:25:05.745656+00:00"
+}

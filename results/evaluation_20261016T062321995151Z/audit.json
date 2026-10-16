@@ -1,0 +1,13 @@
+{
+  "equivalence_steps": 2000,
+  "max_prediction_difference": 1.9984014443252818e-15,
+  "max_coefficient_difference": 6.245004513516506e-16,
+  "max_occupancy_difference": 3.774758283725532e-15,
+  "max_mass_error": 1.2434497875801753e-14,
+  "min_amount": 0.0,
+  "births": 116,
+  "evictions": 114,
+  "assembly_python_traced_current_bytes": 5364,
+  "assembly_python_traced_peak_bytes": 13180,
+  "workspace_note": "Representative Python/NumPy-traced allocations, not process peak RSS; excludes dataset/interpreter."
+}
