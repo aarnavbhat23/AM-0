@@ -10,4 +10,12 @@ The initial repository is private. It contains no biological sequences, private 
 
 ## Reproduce
 
-Python 3.11 or newer, NumPy as pinned in `requirements.txt`. Instructions and results will be added with the executable diagnostic. The protocol precedes the measurements in Git history.
+Python 3.11 or newer, NumPy as pinned in `requirements.txt`. ```sh
+python3 -m pip install -r requirements.txt
+python3 -m unittest discover -s tests -v
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 run.py --phase development
+# Supply the selected_rates.json written by the development run:
+OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 run.py --phase evaluation --selected results/DEVELOPMENT_RUN/selected_rates.json
+```
+
+Source and protocol must be committed before running. Each run writes a new timestamped directory with its revision, hashes, data, predictions and measurements. Existing results are never overwritten. Time-capped update counts vary with the machine. The [implementation notes](docs/IMPLEMENTATION_LOG.md) record the pre-experiment numerical correction.
