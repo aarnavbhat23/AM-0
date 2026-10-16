@@ -1,0 +1,11 @@
+{
+  "assembly": 0.1,
+  "assembly_fixed": 0.1,
+  "assembly_no_pool": 0.1,
+  "adaptive_lms": 0.1,
+  "quadratic_lms": 0.1,
+  "history_lms": 0.1,
+  "current_lms": 0.01,
+  "assembly_shuffled": 0.1,
+  "assembly_untrained": 0.1
+}
