@@ -1,6 +1,6 @@
 # Optional independent scientific critique
 
-Claude Science is **not required** to derive, implement or run this diagnostic. No account access, paid computation, GPU, laboratory work or user action is needed for this stage. Another model's agreement would not establish novelty or biological validity. We have not contacted any external service or uploaded this private project.
+An external review service is **not required** to derive, implement or run this diagnostic. No account access, paid computation, GPU, laboratory work or user action is needed for this stage. Another model's agreement would not establish novelty or biological validity. We have not contacted any external service or uploaded this private project.
 
 If the user wants an independent review, paste this prompt with `LEARNING_RULE.md`, `MATHEMATICAL_AUDIT.md`, `PROTOCOL.md` and the result report. Share only the material the user chooses to disclose.
 
